@@ -1,0 +1,5 @@
+---
+- name:  deploy a test application
+  hosts: localhost
+  tasks: 
+    - name: install httpd
